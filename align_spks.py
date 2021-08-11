@@ -25,3 +25,5 @@ validtrials = dat['response']!=0
 print('%s%i'%('number of valid trials based on response type (Movement/No movement) = ',sum(validtrials)))
 newdata,validtrials = realign_data(align_time,length_time_in_bins,dat['spks'],validtrials)
 print('%s%i'%('number of valid trials after excluding long response time = ',sum(validtrials)))
+
+print('test')
